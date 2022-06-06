@@ -18,6 +18,9 @@ struct Day2: View {
 //            pageView($0)
             Day2SubView(page: $0)
         }
+        .onPageChanged({ index in
+            print(index)
+        })
         .horizontal()
         .alignment(.center)
         .itemSpacing(5)
