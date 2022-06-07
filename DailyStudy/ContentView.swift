@@ -17,6 +17,9 @@ struct ContentView: View {
                 NavigationLink(destination: Day2()) {
                     Text("Day2")
                 }
+                NavigationLink(destination: Day3()) {
+                    Text("Day3")
+                }
             }
             .navigationTitle("DailyStudy")
         }
