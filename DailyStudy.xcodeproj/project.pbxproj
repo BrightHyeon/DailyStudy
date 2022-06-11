@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		963B74EC2854CF2D003B6E08 /* Day6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963B74EB2854CF2D003B6E08 /* Day6.swift */; };
 		96436BBF284FA2F000A023A0 /* Day3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96436BBE284FA2F000A023A0 /* Day3.swift */; };
+		96436BC1284FAC8700A023A0 /* Day4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96436BC0284FAC8700A023A0 /* Day4.swift */; };
+		966BC8E32850ADB00008FC11 /* Day5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966BC8E22850ADB00008FC11 /* Day5.swift */; };
 		9676D188284DF72A00C379B0 /* DailyStudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9676D187284DF72A00C379B0 /* DailyStudyApp.swift */; };
 		9676D18A284DF72A00C379B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9676D189284DF72A00C379B0 /* ContentView.swift */; };
 		9676D18C284DF72A00C379B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9676D18B284DF72A00C379B0 /* Assets.xcassets */; };
@@ -38,7 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		963B74EB2854CF2D003B6E08 /* Day6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day6.swift; sourceTree = "<group>"; };
 		96436BBE284FA2F000A023A0 /* Day3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3.swift; sourceTree = "<group>"; };
+		96436BC0284FAC8700A023A0 /* Day4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4.swift; sourceTree = "<group>"; };
+		966BC8E22850ADB00008FC11 /* Day5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day5.swift; sourceTree = "<group>"; };
 		9676D184284DF72A00C379B0 /* DailyStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9676D187284DF72A00C379B0 /* DailyStudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyStudyApp.swift; sourceTree = "<group>"; };
 		9676D189284DF72A00C379B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -107,6 +113,9 @@
 				9676D1B1284DF73F00C379B0 /* Day1.swift */,
 				9676D1B3284E06F600C379B0 /* Day2.swift */,
 				96436BBE284FA2F000A023A0 /* Day3.swift */,
+				96436BC0284FAC8700A023A0 /* Day4.swift */,
+				966BC8E22850ADB00008FC11 /* Day5.swift */,
+				963B74EB2854CF2D003B6E08 /* Day6.swift */,
 				9676D18B284DF72A00C379B0 /* Assets.xcassets */,
 				9676D18D284DF72A00C379B0 /* Preview Content */,
 			);
@@ -275,6 +284,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9676D18A284DF72A00C379B0 /* ContentView.swift in Sources */,
+				963B74EC2854CF2D003B6E08 /* Day6.swift in Sources */,
+				966BC8E32850ADB00008FC11 /* Day5.swift in Sources */,
+				96436BC1284FAC8700A023A0 /* Day4.swift in Sources */,
 				96436BBF284FA2F000A023A0 /* Day3.swift in Sources */,
 				9676D1B4284E06F600C379B0 /* Day2.swift in Sources */,
 				9676D1B2284DF73F00C379B0 /* Day1.swift in Sources */,
@@ -440,6 +452,7 @@
 				DEVELOPMENT_TEAM = B2RV52W8G3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "지도 권한 필요";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -469,6 +482,7 @@
 				DEVELOPMENT_TEAM = B2RV52W8G3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "지도 권한 필요";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

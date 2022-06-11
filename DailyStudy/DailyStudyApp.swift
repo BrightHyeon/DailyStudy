@@ -11,11 +11,13 @@ import SwiftUI
 struct DailyStudyApp: App {
     
     let day1ViewModel = Day1ViewModel()
+    let day5ViewModel = Day5ViewModel()
     
     var body: some Scene {
         WindowGroup {
             ContentView()
                 .environmentObject(day1ViewModel)
+                .environmentObject(day5ViewModel)
         }
     }
 }
