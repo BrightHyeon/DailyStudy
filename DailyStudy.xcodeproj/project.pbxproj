@@ -24,9 +24,13 @@
 		9676D1B2284DF73F00C379B0 /* Day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9676D1B1284DF73F00C379B0 /* Day1.swift */; };
 		9676D1B4284E06F600C379B0 /* Day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9676D1B3284E06F600C379B0 /* Day2.swift */; };
 		9676D1B7284E071100C379B0 /* SwiftUIPager in Frameworks */ = {isa = PBXBuildFile; productRef = 9676D1B6284E071100C379B0 /* SwiftUIPager */; };
+		96A252BA28782B89006D4126 /* Day16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A252B928782B89006D4126 /* Day16.swift */; };
+		96D1A581287440A30080C215 /* Day14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D1A580287440A30080C215 /* Day14.swift */; };
+		96D1A588287474A90080C215 /* Day15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D1A587287474A90080C215 /* Day15.swift */; };
 		96E62938285C8B76002A0240 /* Day8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E62937285C8B76002A0240 /* Day8.swift */; };
 		96E6293A285CBF87002A0240 /* Day9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E62939285CBF87002A0240 /* Day9.swift */; };
 		96FA7092286F09F1006EDE94 /* Day12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FA7091286F09F1006EDE94 /* Day12.swift */; };
+		96FA7099286F2E29006EDE94 /* Day13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FA7098286F2E29006EDE94 /* Day13.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,9 +70,13 @@
 		9676D1A4284DF72A00C379B0 /* DailyStudyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyStudyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9676D1B1284DF73F00C379B0 /* Day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1.swift; sourceTree = "<group>"; };
 		9676D1B3284E06F600C379B0 /* Day2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2.swift; sourceTree = "<group>"; };
+		96A252B928782B89006D4126 /* Day16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day16.swift; sourceTree = "<group>"; };
+		96D1A580287440A30080C215 /* Day14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day14.swift; sourceTree = "<group>"; };
+		96D1A587287474A90080C215 /* Day15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day15.swift; sourceTree = "<group>"; };
 		96E62937285C8B76002A0240 /* Day8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day8.swift; sourceTree = "<group>"; };
 		96E62939285CBF87002A0240 /* Day9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day9.swift; sourceTree = "<group>"; };
 		96FA7091286F09F1006EDE94 /* Day12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day12.swift; sourceTree = "<group>"; };
+		96FA7098286F2E29006EDE94 /* Day13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day13.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +142,10 @@
 				9636AF8928672F2F002511C1 /* Day10.swift */,
 				9636AF8B28681A69002511C1 /* Day11.swift */,
 				96FA7091286F09F1006EDE94 /* Day12.swift */,
+				96FA7098286F2E29006EDE94 /* Day13.swift */,
+				96D1A580287440A30080C215 /* Day14.swift */,
+				96D1A587287474A90080C215 /* Day15.swift */,
+				96A252B928782B89006D4126 /* Day16.swift */,
 				9676D18B284DF72A00C379B0 /* Assets.xcassets */,
 				9676D18D284DF72A00C379B0 /* Preview Content */,
 			);
@@ -302,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9676D18A284DF72A00C379B0 /* ContentView.swift in Sources */,
+				96D1A588287474A90080C215 /* Day15.swift in Sources */,
 				9636AF8C28681A69002511C1 /* Day11.swift in Sources */,
 				96E62938285C8B76002A0240 /* Day8.swift in Sources */,
 				963B74EC2854CF2D003B6E08 /* Day6.swift in Sources */,
@@ -309,6 +322,9 @@
 				96436BC1284FAC8700A023A0 /* Day4.swift in Sources */,
 				9636AF8A28672F2F002511C1 /* Day10.swift in Sources */,
 				96436BBF284FA2F000A023A0 /* Day3.swift in Sources */,
+				96FA7099286F2E29006EDE94 /* Day13.swift in Sources */,
+				96D1A581287440A30080C215 /* Day14.swift in Sources */,
+				96A252BA28782B89006D4126 /* Day16.swift in Sources */,
 				96E6293A285CBF87002A0240 /* Day9.swift in Sources */,
 				9676D1B4284E06F600C379B0 /* Day2.swift in Sources */,
 				96083B592858CAF5004E1973 /* Day7.swift in Sources */,

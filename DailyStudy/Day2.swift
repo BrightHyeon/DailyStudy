@@ -14,24 +14,27 @@ struct Day2: View {
     var pages: [Int] = [1,2,3,4,5]
     
     var body: some View {
-        Pager(page: pageIndex, data: pages, id: \.self) {
-//            pageView($0)
-            Day2SubView(page: $0)
+        ZStack(alignment: .bottom) {
+            Pager(page: pageIndex, data: pages, id: \.self) {
+                Day2SubView(page: $0)
+            }
+            .onPageChanged({ index in
+                print(index)
+            })
+            .horizontal()
+            .alignment(.center)
+            .itemSpacing(10)
+            .interactive(rotation: true)
+            .preferredItemSize(CGSize(width: 300, height: 200))
+            .frame(height: 220)
         }
-        .onPageChanged({ index in
-            print(index)
-        })
-        .horizontal()
-        .alignment(.center)
-        .itemSpacing(5)
-        .itemAspectRatio(0.8)
-        .interactive(scale: 0.9)
-        .interactive(rotation: true)
         .ignoresSafeArea()
     }
+}
+struct Day2SubView: View {
+    var page: Int
     
-    //여기에 Page의 Design을 구성. 개별 Page의 형태
-    func pageView(_ page: Int) -> some View {
+    var body: some View {
         ZStack {
             Color.mint
             
@@ -48,8 +51,7 @@ struct Day2: View {
                 .bold()
             }
         }
-        .frame(height: 500)
-        .cornerRadius(5)
+        .cornerRadius(20)
         .shadow(color: .black, radius: 5)
     }
 }
@@ -89,28 +91,3 @@ struct Day2_Previews: PreviewProvider {
  함수 형태말고도 다른 뷰에 넣어서 사용도 가능하다.
  */
 
-struct Day2SubView: View {
-    var page: Int
-    
-    var body: some View {
-        ZStack {
-            Color.mint
-            
-            VStack {
-                Button {
-                    print()
-                } label: {
-                    Image(systemName: "star.fill")
-                        .font(.largeTitle.bold())
-                }
-
-                Text("Page: \(page)")
-                    .font(.largeTitle)
-                .bold()
-            }
-        }
-        .frame(height: 500)
-        .cornerRadius(5)
-        .shadow(color: .black, radius: 5)
-    }
-}
