@@ -29,10 +29,12 @@ struct Day16_Previews: PreviewProvider {
 
 struct FullScreenSheet: View {
     @State private var selection: Int = 0
+    @State private var isSwipe: Bool = false
     
     var body: some View {
         TabView(selection: $selection) {
             OneView(selection: $selection).tag(0)
+//                .gesture(DragGesture()) -> 이거 달면 두 손가락으로 제스쳐해야 움직임.
             TwoView(selection: $selection).tag(1)
             ThreeView(selection: $selection).tag(2)
         }

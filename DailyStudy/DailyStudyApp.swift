@@ -15,7 +15,7 @@ struct DailyStudyApp: App {
     
     var body: some Scene {
         WindowGroup {
-            Day14()
+            ContentView()
                 .environmentObject(day1ViewModel)
                 .environmentObject(day5ViewModel)
         }
